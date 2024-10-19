@@ -1,5 +1,11 @@
+import { SideBar } from './components/SideBar';
+
 const App = () => {
-	return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+	return (
+		<main className="h-screen my-8 ">
+			<SideBar />
+		</main>
+	);
 };
 
 export default App;
